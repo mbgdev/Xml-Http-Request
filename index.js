@@ -6,5 +6,5 @@ xhttp.onreadystatechange = function() {
       console.log(xhttp.responseText);
     }
 };
-xhttp.open("GET", "https://jsonplaceholder.typicode.com/users", true);
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/users");
 xhttp.send();
